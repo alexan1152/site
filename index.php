@@ -3,11 +3,11 @@
 <head>
 <body>
 <?php
-    function info() {
-        echo "Info primted";
+    function info($word) {
+        echo "$word<br>";
     }
 
-    info();
+    info(4);
 ?>
 </body>
 </head>
